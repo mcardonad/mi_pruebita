@@ -1,1 +1,7 @@
-test
+---
+- hosts: all
+  tasks:
+  - name: Matar a la maldita lisiada
+    yum:
+     name: vim
+     state: absent
