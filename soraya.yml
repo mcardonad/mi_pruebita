@@ -4,4 +4,4 @@
   - name: Matar a la maldita lisiada
     yum:
      name: vim
-     state: absent
+     state: present
